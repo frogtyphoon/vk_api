@@ -1,0 +1,29 @@
+{
+  "one_time": true,
+  "buttons": [
+    {
+      "action": {
+        "type": "text",
+        "payload": "{\"button\": \"1\"}",
+        "label": "map"
+      },
+      "color": "negative"
+    },
+    {
+      "action": {
+        "type": "text",
+        "payload": "{\"button\": \"2\"}",
+        "label": "sat"
+      },
+      "color": "positive"
+    },
+    {
+      "action": {
+        "type": "text",
+        "payload": "{\"button\": \"3\"}",
+        "label": "sat + skl"
+      },
+      "color": "positive"
+    }
+  ]
+}
